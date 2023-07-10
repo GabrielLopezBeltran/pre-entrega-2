@@ -83,6 +83,32 @@ p{
     padding: 2%;
 }
 
+/* Galeria */
+
+
+
+.carousel {
+ 
+    padding: 2rem;
+  }
+  
+  .h1-galeria{
+    font-family: 'Poppins';
+    font-size: medium;
+    text-align: center;
+   margin-top: 2rem;
+    
+}
+  
+  .h2-galeria{
+      font-family: 'Poppins';
+      font-size: medium;
+      text-align: center;
+      background-color: #cecace;
+      
+  }
+  
+  
 
 
 /* Footer */
@@ -114,10 +140,4 @@ p{
 .footer div {
     display: flex;
 }
-
-
-.carouselExample{
-  width: 100px;
-}
-
 
