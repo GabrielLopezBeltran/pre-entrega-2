@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NavBar */
+
+.navbar{
+    background-color: #ab8f78 !important;
+    font-family: 'Poppins';
+
+}
+
+li{
+    margin: 8px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #947a65;
+    color: black;
+    font-weight: bolder;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:link{ 
+    background-color: #ab8f78 ;
+    color: black;
+}
+
+a:active {
+    background-color: #ab8f78;
+    color: black ;
+}
+
+/* Main */
+
+.main{
+ background-color: #fefae0;
+
+}
+
+
+.img-main{
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.div-h2-main{
+    text-align: center;
+    font-family: 'Poppins';
+    margin: auto;
+    color: #020202 ;
+    padding: 2rem;
+}
+
+
+/* Paises */
+
+
+.section-paises{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    background-color: #cecace;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    
+}
+
+.img-paises{
+  max-width: 100%;
+    margin: auto;
+}
+
+p{
+    padding: 2%;
+}
+
+
+
+/* Footer */
+
+.footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.redes-icono {
+  height: 40px;
+    padding: 10px;
+
+}
+
+.footer {
+    background-color: #ab8f78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    align-content: space-between;
+    flex-direction: column-reverse;
+}
+
+.footer div {
+    display: flex;
+}
+
+
+.carouselExample{
+  width: 100px;
+}
+
+
